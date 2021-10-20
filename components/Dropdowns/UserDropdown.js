@@ -1,6 +1,6 @@
 import React from "react";
 import { createPopper } from "@popperjs/core";
-import usePopoverCloseEvents from "hooks/usePopoverCloseEvents";
+import usePopoverCloseEvents from "../../hooks/usePopoverCloseEvents";
 
 const UserDropdown = () => {
   // dropdown props

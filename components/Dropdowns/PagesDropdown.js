@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { createPopper } from "@popperjs/core";
-import usePopoverCloseEvents from "hooks/usePopoverCloseEvents";
+import usePopoverCloseEvents from "../../hooks/usePopoverCloseEvents";
 
 const PagesDropdown = () => {
   // dropdown props

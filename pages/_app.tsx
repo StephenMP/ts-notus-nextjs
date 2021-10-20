@@ -4,10 +4,9 @@ import Head from "next/head";
 import Router from "next/router";
 import React from "react";
 import ReactDOM from "react-dom";
-import "styles/tailwind.css";
 import PageChange from "../components/PageChange/PageChange";
-
-
+import "../styles/index.css";
+import "../styles/tailwind.css";
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);

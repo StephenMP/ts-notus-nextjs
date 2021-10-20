@@ -3,7 +3,7 @@ import Link from "next/link";
 
 // layout for page
 
-import Auth from "layouts/Auth.js";
+import Auth from "../../layouts/Auth";
 
 export default function Login() {
   return (
