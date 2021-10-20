@@ -1,13 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-
-import PageChange from "components/PageChange/PageChange.js";
-
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import React from "react";
+import ReactDOM from "react-dom";
 import "styles/tailwind.css";
+import PageChange from "../components/PageChange/PageChange";
+
+
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
@@ -61,7 +61,7 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
 
-    const Layout = Component.layout || (({ children }) => <>{children}</>);
+    const Layout = Component['layout'] || (({ children }) => <>{children}</>);
 
     return (
       <React.Fragment>
