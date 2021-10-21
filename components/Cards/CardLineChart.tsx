@@ -103,7 +103,7 @@ export default function CardLineChart() {
         },
       },
     };
-    var ctx = (document.getElementById("line-chart") as HTMLCanvasElement).getContext("2d");
+    const ctx = (document.getElementById("line-chart") as HTMLCanvasElement).getContext("2d");
     window['myLine'] = new Chart(ctx, config);
   }, []);
   return (

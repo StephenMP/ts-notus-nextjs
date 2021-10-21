@@ -1,11 +1,10 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import App from "next/app";
+import App, { AppContext } from "next/app";
 import Head from "next/head";
 import Router from "next/router";
 import React from "react";
 import ReactDOM from "react-dom";
 import PageChange from "../components/PageChange/PageChange";
-import "../styles/index.css";
 import "../styles/tailwind.css";
 
 Router.events.on("routeChangeStart", (url) => {
@@ -16,10 +15,12 @@ Router.events.on("routeChangeStart", (url) => {
     document.getElementById("page-transition")
   );
 });
+
 Router.events.on("routeChangeComplete", () => {
   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
   document.body.classList.remove("body-page-transition");
 });
+
 Router.events.on("routeChangeError", () => {
   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
   document.body.classList.remove("body-page-transition");
@@ -27,19 +28,19 @@ Router.events.on("routeChangeError", () => {
 
 export default class MyApp extends App {
   componentDidMount() {
-    let comment = document.createComment(`
+    const comment = document.createComment(`
 
-=========================================================
-* TS Notus NextJS - v1.1.0 based on Tailwind Starter Kit by Creative Tim
-=========================================================
+================================================================
+* TS Notus NextJS - v1.1.0 based on notus-nextjs by Creative Tim
+================================================================
 
-* Product Page: https://www.creative-tim.com/product/notus-nextjs
+* Product Page: https://github.com/StephenMP/ts-notus-nextjs
 * Copyright 2021 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/StephenMP/ts-notus-nextjs/blob/main/LICENSE.md)
 
 * Tailwind Starter Kit Page: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
 
-* Coded by Creative Tim
+* Coded by Creative Tim and StephenMP
 
 =========================================================
 
@@ -48,7 +49,8 @@ export default class MyApp extends App {
 `);
     document.insertBefore(comment, document.documentElement);
   }
-  static async getInitialProps({ Component, router, ctx }) {
+
+  static async getInitialProps({ Component, router, ctx }: AppContext) {
     let pageProps = {};
 
     if (Component.getInitialProps) {
@@ -57,9 +59,9 @@ export default class MyApp extends App {
 
     return { pageProps };
   }
+
   render() {
     const { Component, pageProps } = this.props;
-
     const Layout = Component['layout'] || (({ children }) => <>{children}</>);
 
     return (
@@ -70,7 +72,7 @@ export default class MyApp extends App {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <title>TS Notus NextJS by Creative Tim and StephenMP</title>
-          <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+          <script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`}></script>
         </Head>
         <Layout>
           <Component {...pageProps} />

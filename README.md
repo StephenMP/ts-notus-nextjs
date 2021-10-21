@@ -26,6 +26,8 @@ Speed up your web development with a beautiful product made by <a href="https://
 - If downloaded, Unzip the downloaded file to a folder in your computer
 - Open Terminal
 - Go to your file project (where you’ve unzipped the product)
+- Copy `.env.sample` as `.env`
+- If you have a Google Maps API Key, replace `YOUR_KEY_HERE` in `.env` with it
 - (If you are on a linux based terminal) Simply run `yarn install:clean`
 - (If not) Run in terminal `yarn`
 - (If not) Run in terminal `yarn build:tailwind` (each time you add a new class, a class that does not exist in `src/assets/styles/tailwind.css`, you will need to run this command)
