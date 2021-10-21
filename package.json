@@ -31,7 +31,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.10.2",
     "@tailwindcss/forms": "^0.3.4",
-    "chart.js": "^3.5.1",
+    "chart.js": "^2.9.4",
     "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.9",
     "next": "^11.1.2",
