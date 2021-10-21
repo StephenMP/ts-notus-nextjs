@@ -1,9 +1,9 @@
+import Chart, { ChartConfiguration } from "chart.js";
 import React from "react";
-import Chart from "chart.js";
 
 export default function CardLineChart() {
   React.useEffect(() => {
-    var config = {
+    const config: ChartConfiguration = {
       type: "line",
       data: {
         labels: [
@@ -17,14 +17,14 @@ export default function CardLineChart() {
         ],
         datasets: [
           {
-            label: new Date().getFullYear(),
+            label: `${new Date().getFullYear()}`,
             backgroundColor: "#4c51bf",
             borderColor: "#4c51bf",
             data: [65, 78, 66, 44, 56, 67, 75],
             fill: false,
           },
           {
-            label: new Date().getFullYear() - 1,
+            label: `${new Date().getFullYear() - 1}`,
             fill: false,
             backgroundColor: "#fff",
             borderColor: "#fff",
@@ -70,11 +70,11 @@ export default function CardLineChart() {
               gridLines: {
                 display: false,
                 borderDash: [2],
-                borderDashOffset: [2],
+                borderDashOffset: 2,
                 color: "rgba(33, 37, 41, 0.3)",
                 zeroLineColor: "rgba(0, 0, 0, 0)",
                 zeroLineBorderDash: [2],
-                zeroLineBorderDashOffset: [2],
+                zeroLineBorderDashOffset: 2,
               },
             },
           ],
@@ -91,20 +91,20 @@ export default function CardLineChart() {
               },
               gridLines: {
                 borderDash: [3],
-                borderDashOffset: [3],
+                borderDashOffset: 3,
                 drawBorder: false,
                 color: "rgba(255, 255, 255, 0.15)",
                 zeroLineColor: "rgba(33, 37, 41, 0)",
                 zeroLineBorderDash: [2],
-                zeroLineBorderDashOffset: [2],
+                zeroLineBorderDashOffset: 2,
               },
             },
           ],
         },
       },
     };
-    var ctx = document.getElementById("line-chart").getContext("2d");
-    window.myLine = new Chart(ctx, config);
+    var ctx = (document.getElementById("line-chart") as HTMLCanvasElement).getContext("2d");
+    window['myLine'] = new Chart(ctx, config);
   }, []);
   return (
     <>

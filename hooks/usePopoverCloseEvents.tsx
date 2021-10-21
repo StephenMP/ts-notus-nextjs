@@ -1,15 +1,15 @@
 import { useEffect, useRef } from "react";
 
-export default function usePopoverCloseEvents(closeFunction) {
-    const ref = useRef(null)
+export default function usePopoverCloseEvents(closeFunction: () => void) {
+    const ref = useRef<anyOk>(null)
 
-    const handleHideDropdown = (event) => {
+    const handleHideDropdown = (event: KeyboardEvent) => {
         if (event.key === 'Escape') {
             closeFunction();
         }
     };
 
-    const handleClickOutside = (event) => {
+    const handleClickOutside = (event: MouseEvent) => {
         if (ref.current && !ref.current.contains(event.target)) {
             closeFunction();
         }
