@@ -1,12 +1,12 @@
-import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-
+import React from "react";
 import NotificationDropdown from "../Dropdowns/NotificationDropdown";
 import UserDropdown from "../Dropdowns/UserDropdown";
 
+
 export default function Sidebar() {
-  const [collapseShow, setCollapseShow] = React.useState("hidden");
+  const [collapseShow, setCollapseShow] = React.useState<string>("hidden");
   const router = useRouter();
   return (
     <>

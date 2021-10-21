@@ -4,7 +4,7 @@ import usePopoverCloseEvents from "../../hooks/usePopoverCloseEvents";
 
 const NotificationDropdown = () => {
   // dropdown props
-  const [dropdownPopoverShow, setDropdownPopoverShow] = React.useState(false);
+  const [dropdownPopoverShow, setDropdownPopoverShow] = React.useState<boolean>(false);
   const btnDropdownRef = React.createRef<HTMLAnchorElement>();
   const popoverDropdownRef = React.createRef<HTMLDivElement>();
   const openDropdownPopover = () => {

@@ -5,7 +5,11 @@ import React from "react";
 
 // core components
 
-export default function PageChange(props) {
+export type PageChangeProps = {
+  path: string;
+}
+
+export default function PageChange(props: PageChangeProps) {
   return (
     <div>
       <div

@@ -1,9 +1,8 @@
 import React from "react";
-
+import FooterSmall from "../components/Footers/FooterSmall.tsx";
 // components
-
 import Navbar from "../components/Navbars/AuthNavbar";
-import FooterSmall from "../components/Footers/FooterSmall";
+
 
 export default function Auth({ children }) {
   return (
