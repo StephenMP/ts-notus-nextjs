@@ -110,5 +110,5 @@ We use GitHub Issues as the official bug tracker for the Notus NextJS. Here is s
 - Licensed under <a href="https://github.com/StephenMP/ts-notus-nextjs/blob/main/LICENSE.md" target="_blank">MIT</a>
 
 ## Resources
-- Demo: <a href="https://demos.creative-tim.com/notus-nextjs/?ref=nnjs-readme" target="_blank">https://demos.creative-tim.com/notus-nextjs/?ref=nnjs-readme</a>
+- Demo: <a href="https://ts-notus-nextjs.vercel.app/" target="_blank">https://ts-notus-nextjs.vercel.app/</a>
 - Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank">https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme</a>
