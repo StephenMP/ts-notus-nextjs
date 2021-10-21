@@ -1,7 +1,15 @@
 const plugin = require("tailwindcss/plugin");
 const colors = require("tailwindcss/colors");
+delete colors['lightBlue']
+
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './layouts/**/*.{js,ts,jsx,tsx}'],
+  purge: {
+    enabled: true,
+    content: ["./**/*.html", "./*.html", "./**/*.js", "./*.js", "./**/*.ts", "./*.ts", "./**/*.tsx", "./*.tsx"],
+    options: {
+      safelist: [],
+    },
+  },
   theme: {
     colors: {
       ...colors,
@@ -65,6 +73,20 @@ module.exports = {
       },
     },
   },
+  variants: [
+    "responsive",
+    "group-hover",
+    "focus-within",
+    "first",
+    "last",
+    "odd",
+    "even",
+    "hover",
+    "focus",
+    "active",
+    "visited",
+    "disabled",
+  ],
   plugins: [
     require("@tailwindcss/forms"),
     plugin(function ({ addComponents, theme }) {
