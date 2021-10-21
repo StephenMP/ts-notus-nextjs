@@ -1,13 +1,12 @@
-import PropTypes from "prop-types";
 import React from "react";
 // components
 import TableDropdown from "../Dropdowns/TableDropdown";
 
-export type CardTablePropTypes = {
+export type CardTableProps = {
   color: 'light' | 'dark'
 }
 
-export default function CardTable({ color }: CardTablePropTypes) {
+export default function CardTable({ color }: CardTableProps) {
   return (
     <>
       <div
@@ -423,9 +422,5 @@ export default function CardTable({ color }: CardTablePropTypes) {
 }
 
 CardTable.defaultProps = {
-  color: "light",
-};
-
-CardTable.propTypes = {
-  color: PropTypes.oneOf(["light", "dark"]),
-};
+  color: 'light'
+} as CardTableProps

@@ -104,7 +104,9 @@ export default function CardLineChart() {
       },
     };
     const ctx = (document.getElementById("line-chart") as HTMLCanvasElement).getContext("2d");
-    window['myLine'] = new Chart(ctx, config);
+    if (ctx) {
+      window.myLine = new Chart(ctx, config);
+    }
   }, []);
   return (
     <>

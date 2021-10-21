@@ -1,8 +1,6 @@
 import Chart, { ChartConfiguration } from "chart.js";
 import React from "react";
 
-
-
 export default function CardBarChart() {
   React.useEffect(() => {
     const config: ChartConfiguration = {
@@ -96,7 +94,9 @@ export default function CardBarChart() {
     }
 
     const ctx = (document.getElementById("bar-chart") as HTMLCanvasElement).getContext("2d");
-    window['myBar'] = new Chart(ctx, config);
+    if (ctx) {
+      window.myBar = new Chart(ctx, config);
+    }
   }, []);
   return (
     <>

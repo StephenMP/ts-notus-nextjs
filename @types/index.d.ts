@@ -1,3 +1,5 @@
+import Chart from "chart.js";
+
 export { };
 
 declare global {
@@ -9,4 +11,8 @@ declare global {
 
   /* For possible nully types */
   type Maybe<T> = T | null | undefined;
+
+  var myBar: Chart
+  var myLine: Chart
+  var google: anyOk
 }

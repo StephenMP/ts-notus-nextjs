@@ -1,7 +1,6 @@
-import PropTypes from "prop-types";
 import React from "react";
 
-export type CardStatsPropTypes = {
+export type CardStatsProps = {
   statSubtitle: string;
   statTitle: string;
   statArrow: 'up' | 'down';
@@ -21,7 +20,7 @@ export default function CardStats({
   statDescripiron,
   statIconName,
   statIconColor,
-}: CardStatsPropTypes) {
+}: CardStatsProps) {
   return (
     <>
       <div className="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
@@ -53,8 +52,8 @@ export default function CardStats({
                   statArrow === "up"
                     ? "fas fa-arrow-up"
                     : statArrow === "down"
-                    ? "fas fa-arrow-down"
-                    : ""
+                      ? "fas fa-arrow-down"
+                      : ""
                 }
               ></i>{" "}
               {statPercent}%
@@ -76,19 +75,4 @@ CardStats.defaultProps = {
   statDescripiron: "Since last month",
   statIconName: "far fa-chart-bar",
   statIconColor: "bg-red-500",
-};
-
-CardStats.propTypes = {
-  statSubtitle: PropTypes.string,
-  statTitle: PropTypes.string,
-  statArrow: PropTypes.oneOf(["up", "down"]),
-  statPercent: PropTypes.string,
-  // can be any of the text color utilities
-  // from tailwindcss
-  statPercentColor: PropTypes.string,
-  statDescripiron: PropTypes.string,
-  statIconName: PropTypes.string,
-  // can be any of the background color utilities
-  // from tailwindcss
-  statIconColor: PropTypes.string,
-};
+} as CardStatsProps

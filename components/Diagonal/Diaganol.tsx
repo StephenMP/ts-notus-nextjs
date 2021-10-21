@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import React from "react";
 
 export type DiagonalProps = {
@@ -28,7 +27,3 @@ export default function Diagonal({ color }: DiagonalProps) {
         </div>
     );
 }
-
-Diagonal.propTypes = {
-    color: PropTypes.string,
-};

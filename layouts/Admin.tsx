@@ -7,7 +7,7 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import HeaderStats from "../components/Headers/HeaderStats";
 import FooterAdmin from "../components/Footers/FooterAdmin";
 
-export default function Admin({ children }) {
+export default function Admin({ children }: anyOk) {
   return (
     <>
       <Sidebar />

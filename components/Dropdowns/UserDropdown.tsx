@@ -8,10 +8,12 @@ const UserDropdown = () => {
   const btnDropdownRef = React.createRef<HTMLAnchorElement>();
   const popoverDropdownRef = React.createRef<HTMLDivElement>();
   const openDropdownPopover = () => {
-    createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
-      placement: "bottom-start",
-    });
-    setDropdownPopoverShow(true);
+    if (btnDropdownRef.current && popoverDropdownRef.current) {
+      createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
+        placement: "bottom-start",
+      });
+      setDropdownPopoverShow(true);
+    }
   };
   const closeDropdownPopover = () => {
     setDropdownPopoverShow(false);
