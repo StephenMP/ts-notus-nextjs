@@ -15,7 +15,7 @@ export default function Navbar() {
                 className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                 href="#pablo"
               >
-                Notus NextJS
+                TS Notus NextJS
               </a>
             </Link>
             <button

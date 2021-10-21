@@ -32,7 +32,7 @@ export default function Landing() {
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
                     This is a simple example of a Landing Page you can build
-                    using Notus NextJS. It features multiple CSS components
+                    using TS Notus NextJS. It features multiple CSS components
                     based on the Tailwind CSS design system.
                   </p>
                 </div>
@@ -130,7 +130,7 @@ export default function Landing() {
                 </p>
                 <Link href="/">
                   <a href="#pablo" className="font-bold text-blueGray-700 mt-8">
-                    Check Notus NextJS!
+                    Check TS Notus NextJS!
                   </a>
                 </Link>
               </div>
