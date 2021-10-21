@@ -265,7 +265,7 @@ export default function Sidebar() {
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/colors/notus"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
                   <i className="fas fa-paint-brush mr-2 text-blueGray-300 text-base"></i>
@@ -276,7 +276,7 @@ export default function Sidebar() {
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
                   <i className="fab fa-css3-alt mr-2 text-blueGray-300 text-base"></i>
@@ -287,7 +287,7 @@ export default function Sidebar() {
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
                   <i className="fab fa-angular mr-2 text-blueGray-300 text-base"></i>
@@ -298,7 +298,7 @@ export default function Sidebar() {
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
                   <i className="fab fa-js-square mr-2 text-blueGray-300 text-base"></i>
@@ -309,7 +309,7 @@ export default function Sidebar() {
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
                   <i className="fab fa-react mr-2 text-blueGray-300 text-base"></i>
@@ -320,7 +320,7 @@ export default function Sidebar() {
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
                   <i className="fab fa-react mr-2 text-blueGray-300 text-base"></i>
@@ -331,7 +331,7 @@ export default function Sidebar() {
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
                   <i className="fas fa-link mr-2 text-blueGray-300 text-base"></i>
@@ -342,7 +342,7 @@ export default function Sidebar() {
               <li className="inline-flex">
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
                   <i className="fab fa-vuejs mr-2 text-blueGray-300 text-base"></i>

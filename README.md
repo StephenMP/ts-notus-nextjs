@@ -1,7 +1,7 @@
 # TS Notus NextJS 
 **Note**: This is a TypeScript port of the Creative Tim Notus NextJS project. It is in no way directly affiliated with Creative Tim nor is it an officially supported project by Creative Tim. This also uses `yarn` instead of `npm` and the dependencies have been updated to the latest version of each package as of Oct. 20, 2021.
 
-![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/StephenMP/ts-notus-nextjs/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/StephenMP/ts-notus-nextjs.svg)</a> <a href="https://github.com/StephenMP/ts-notus-nextjs/issues?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/StephenMP/ts-notus-nextjs.svg)</a>
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/StephenMP/ts-notus-nextjs/issues?q=is%3Aopen+is%3Aissue" target="_blank" rel="noreferrer">![GitHub issues open](https://img.shields.io/github/issues/StephenMP/ts-notus-nextjs.svg)</a> <a href="https://github.com/StephenMP/ts-notus-nextjs/issues?q=is%3Aissue+is%3Aclosed" target="_blank" rel="noreferrer">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/StephenMP/ts-notus-nextjs.svg)</a>
 
 ![Notus NextJS](https://github.com/creativetimofficial/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)
 
@@ -13,7 +13,7 @@ Notus NextJS is Free and Open Source. It features multiple HTML and NextJS eleme
 
 It is based on [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation?ref=nnjs-github-readme) by Creative Tim and ported to TypeScript by StephenMP, and it is built with both presentation pages, and pages for an admin dashboard.
 
-Speed up your web development with a beautiful product made by <a href="https://creative-tim.com/" target="_blank">Creative Tim </a> and <a href="https://github.com/StephenMP" target="_blank">StephenMP </a>. If you like bright and fresh colors, you will love this Free Tailwind CSS Template! It features a huge number of components that can help you create amazing websites.
+Speed up your web development with a beautiful product made by <a href="https://creative-tim.com/" target="_blank" rel="noreferrer">Creative Tim </a> and <a href="https://github.com/StephenMP" target="_blank" rel="noreferrer">StephenMP </a>. If you like bright and fresh colors, you will love this Free Tailwind CSS Template! It features a huge number of components that can help you create amazing websites.
 
 ### Get Started
 
@@ -88,7 +88,7 @@ We also feature the following 18 dynamic components:
 * [Resources](#resources)
 
 ## Documentation
-The documentation for the Notus NextJS is hosted at <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank">website</a>.
+The documentation for the Notus NextJS is hosted at <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank" rel="noreferrer">website</a>.
 
 ## Browser Support
 
@@ -107,8 +107,8 @@ We use GitHub Issues as the official bug tracker for the Notus NextJS. Here is s
 
 ## Licensing
 
-- Licensed under <a href="https://github.com/StephenMP/ts-notus-nextjs/blob/main/LICENSE.md" target="_blank">MIT</a>
+- Licensed under <a href="https://github.com/StephenMP/ts-notus-nextjs/blob/main/LICENSE.md" target="_blank" rel="noreferrer">MIT</a>
 
 ## Resources
-- Demo: <a href="https://ts-notus-nextjs.vercel.app/" target="_blank">https://ts-notus-nextjs.vercel.app/</a>
-- Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank">https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme</a>
+- Demo: <a href="https://ts-notus-nextjs.vercel.app/" target="_blank" rel="noreferrer">https://ts-notus-nextjs.vercel.app/</a>
+- Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank" rel="noreferrer">https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme</a>
