@@ -1,5 +1,6 @@
 const plugin = require("tailwindcss/plugin");
 const colors = require("tailwindcss/colors");
+delete colors['lightBlue']
 
 module.exports = {
   purge: {
