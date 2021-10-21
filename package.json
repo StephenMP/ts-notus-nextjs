@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "next start",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
+    "build:dev": "NODE_ENV=development next build",
     "dev": "next dev",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && yarn && yarn build:tailwind",
     "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css -i ./styles/index.css"
