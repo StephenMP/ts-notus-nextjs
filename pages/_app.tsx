@@ -42,13 +42,14 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppLayoutProps> = (p
 * TS Notus NextJS - v1.1.0 based on notus-nextjs by Creative Tim
 ================================================================
 
-* Product Page: https://github.com/StephenMP/ts-notus-nextjs
+* Product Page: https://www.creative-tim.com/product/notus-nextjs
+* Repository: https://github.com/StephenMP/ts-notus-nextjs
 * Copyright 2021 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/StephenMP/ts-notus-nextjs/blob/main/LICENSE.md)
 
 * Tailwind Starter Kit Page: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
 
-* Coded by Creative Tim and StephenMP
+* Coded by Creative Tim and ported to TypeScript by StephenMP
 
 =========================================================
 

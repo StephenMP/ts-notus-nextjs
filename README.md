@@ -3,7 +3,7 @@
 
 This is a TypeScript port of the Creative Tim Notus NextJS project. It is in no way directly affiliated with Creative Tim nor is it an officially supported project by Creative Tim.
 
-The official Notus NextJS repo can be found at Creative Tim's <a href="https://github.com/creativetimofficial" target="_blank" rel="noreferrer">GitHub</a>
+The official Notus NextJS repo can be found at Creative Tim's <a href="https://github.com/creativetimofficial/notus-nextjs" target="_blank" rel="noreferrer">GitHub</a>
 
 - Demo: <a href="https://ts-notus-nextjs.vercel.app/" target="_blank" rel="noreferrer">https://ts-notus-nextjs.vercel.app/</a>
 - Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=tsnnjs-github-readme" target="_blank" rel="noreferrer">https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=tsnnjs-github-readme</a>
