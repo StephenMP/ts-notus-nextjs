@@ -38,7 +38,7 @@ export default function Index() {
                   Get started
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
+                  href="https://github.com/StephenMP/ts-notus-nextjs?ref=nnjs-index"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
@@ -586,7 +586,7 @@ export default function Index() {
                 Star!
               </p>
               <a
-                href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
+                href="https://github.com/StephenMP/ts-notus-nextjs?ref=nnjs-index"
                 target="_blank"
                 className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
               >
@@ -647,7 +647,7 @@ export default function Index() {
                   Get started
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
+                  href="https://github.com/StephenMP/ts-notus-nextjs?ref=nnjs-index"
                   target="_blank"
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >

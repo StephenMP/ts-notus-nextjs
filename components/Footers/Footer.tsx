@@ -83,7 +83,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=nnjs-footer"
+                        href="https://www.github.com/StephenMP?ref=nnjs-footer"
                       >
                         Github
                       </a>
@@ -106,7 +106,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer"
+                        href="https://github.com/StephenMP/ts-notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer"
                       >
                         MIT License
                       </a>

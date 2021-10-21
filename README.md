@@ -3,7 +3,7 @@
 
 ![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/StephenMP/ts-notus-nextjs/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/StephenMP/ts-notus-nextjs.svg)</a> <a href="https://github.com/StephenMP/ts-notus-nextjs/issues?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/StephenMP/ts-notus-nextjs.svg)</a>
 
-![Notus NextJS](https://github.com/creativetimofficial/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)
+![Notus NextJS](https://github.com/StephenMP/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)
 
 ### A beautiful UI Kit and Admin for Tailwind CSS and NextJS Written in TypeScript.
 
@@ -96,7 +96,7 @@ At present, we officially aim to support the last two versions of the following 
 
 | Chrome | Firefox | Edge | Safari | Opera |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64"> |
+| <img src="https://github.com/StephenMP/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> | <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64"> |
 
 ## Reporting Issues
 
@@ -107,7 +107,7 @@ We use GitHub Issues as the official bug tracker for the Notus NextJS. Here is s
 
 ## Licensing
 
-- Licensed under <a href="https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md" target="_blank">MIT</a>
+- Licensed under <a href="https://github.com/StephenMP/ts-notus-nextjs/blob/main/LICENSE.md" target="_blank">MIT</a>
 
 ## Resources
 - Demo: <a href="https://demos.creative-tim.com/notus-nextjs/?ref=nnjs-readme" target="_blank">https://demos.creative-tim.com/notus-nextjs/?ref=nnjs-readme</a>

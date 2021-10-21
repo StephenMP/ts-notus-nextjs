@@ -73,7 +73,7 @@ export default function Navbar() {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-auth-navbar"
+                  href="https://github.com/StephenMP/ts-notus-nextjs?ref=nnjs-auth-navbar"
                   target="_blank"
                 >
                   <i className="lg:text-blueGray-200 text-blueGray-400 fab fa-github text-lg leading-lg " />
