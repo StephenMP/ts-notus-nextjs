@@ -10,7 +10,7 @@
     "build": "next build",
     "dev": "next dev",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && yarn && yarn build:tailwind",
-    "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css"
+    "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css -i ./styles/index.css"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +44,7 @@
   "devDependencies": {
     "@types/chart.js": "^2.9.34",
     "@types/react": "^17.0.30",
+    "@types/tailwindcss": "^2.2.1",
     "autoprefixer": "^10.3.7",
     "postcss": "^8.3.9"
   }

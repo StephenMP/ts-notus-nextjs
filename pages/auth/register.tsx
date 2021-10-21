@@ -1,8 +1,7 @@
 import React from "react";
-
 // layout for page
-
 import Auth from "../../layouts/Auth";
+
 
 export default function Register() {
   return (
@@ -93,7 +92,7 @@ export default function Register() {
                         I agree with the{" "}
                         <a
                           href="#pablo"
-                          className="text-lightBlue-500"
+                          className="text-sky-500"
                           onClick={(e) => e.preventDefault()}
                         >
                           Privacy Policy
