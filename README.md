@@ -3,6 +3,10 @@
 
 ![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/StephenMP/ts-notus-nextjs/issues?q=is%3Aopen+is%3Aissue" target="_blank" rel="noreferrer">![GitHub issues open](https://img.shields.io/github/issues/StephenMP/ts-notus-nextjs.svg)</a> <a href="https://github.com/StephenMP/ts-notus-nextjs/issues?q=is%3Aissue+is%3Aclosed" target="_blank" rel="noreferrer">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/StephenMP/ts-notus-nextjs.svg)</a>
 
+## Resources
+- Demo: <a href="https://ts-notus-nextjs.vercel.app/" target="_blank" rel="noreferrer">https://ts-notus-nextjs.vercel.app/</a>
+- Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank" rel="noreferrer">https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme</a>
+
 ![Notus NextJS](https://github.com/creativetimofficial/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)
 
 ### A beautiful UI Kit and Admin for Tailwind CSS and NextJS Written in TypeScript.
@@ -108,7 +112,3 @@ We use GitHub Issues as the official bug tracker for the Notus NextJS. Here is s
 ## Licensing
 
 - Licensed under <a href="https://github.com/StephenMP/ts-notus-nextjs/blob/main/LICENSE.md" target="_blank" rel="noreferrer">MIT</a>
-
-## Resources
-- Demo: <a href="https://ts-notus-nextjs.vercel.app/" target="_blank" rel="noreferrer">https://ts-notus-nextjs.vercel.app/</a>
-- Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme" target="_blank" rel="noreferrer">https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-readme</a>
