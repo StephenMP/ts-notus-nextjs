@@ -1,15 +1,14 @@
-import React from "react";
 import Link from "next/link";
-
-// components
-
-import Navbar from "../components/Navbars/AuthNavbar";
+import React from "react";
 import Footer from "../components/Footers/Footer";
+// components
+import Navbar from "../components/Navbars/AuthNavbar";
+
 
 export default function Landing() {
   return (
     <>
-      <Navbar transparent />
+      <Navbar />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
           <div
@@ -541,8 +540,8 @@ export default function Landing() {
                         Message
                       </label>
                       <textarea
-                        rows="4"
-                        cols="80"
+                        rows={4}
+                        cols={80}
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                         placeholder="Type a message..."
                       />

@@ -1,5 +1,5 @@
 import React from "react";
-import FooterSmall from "../components/Footers/FooterSmall.tsx";
+import FooterSmall from "../components/Footers/FooterSmall";
 // components
 import Navbar from "../components/Navbars/AuthNavbar";
 
@@ -7,7 +7,7 @@ import Navbar from "../components/Navbars/AuthNavbar";
 export default function Auth({ children }) {
   return (
     <>
-      <Navbar transparent />
+      <Navbar />
       <main>
         <section className="relative w-full h-full py-40 min-h-screen">
           <div
