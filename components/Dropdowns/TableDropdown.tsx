@@ -1,3 +1,5 @@
+import { faEllipsisV } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { createPopper } from "@popperjs/core";
 import React from "react";
 import usePopoverCloseEvents from "../../hooks/usePopoverCloseEvents";
@@ -30,7 +32,7 @@ const NotificationDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        <i className="fas fa-ellipsis-v"></i>
+        <FontAwesomeIcon icon={faEllipsisV} />
       </a>
       <div
         ref={popoverDropdownRef}

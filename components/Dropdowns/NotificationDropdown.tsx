@@ -1,6 +1,8 @@
 import { createPopper } from "@popperjs/core";
 import React from "react";
 import usePopoverCloseEvents from "../../hooks/usePopoverCloseEvents";
+import { faBell } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NotificationDropdown = () => {
   // dropdown props
@@ -30,7 +32,7 @@ const NotificationDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        <i className="fas fa-bell"></i>
+        <FontAwesomeIcon icon={faBell} />
       </a>
       <div
         ref={popoverDropdownRef}

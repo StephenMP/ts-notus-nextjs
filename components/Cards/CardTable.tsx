@@ -1,10 +1,12 @@
 import React from "react";
 // components
 import TableDropdown from "../Dropdowns/TableDropdown";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export type CardTableProps = {
-  color: 'light' | 'dark'
-}
+  color: "light" | "dark";
+};
 
 export default function CardTable({ color }: CardTableProps) {
   return (
@@ -115,7 +117,11 @@ export default function CardTable({ color }: CardTableProps) {
                   $2,500 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-orange-500 mr-2"></i> pending
+                  <FontAwesomeIcon
+                    icon={faCircle}
+                    className="text-orange-500 mr-2"
+                  />{" "}
+                  pending
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex">
@@ -178,7 +184,10 @@ export default function CardTable({ color }: CardTableProps) {
                   $1,800 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-emerald-500 mr-2"></i>{" "}
+                  <FontAwesomeIcon
+                    icon={faCircle}
+                    className="text-emerald-500 mr-2"
+                  />{" "}
                   completed
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -242,7 +251,11 @@ export default function CardTable({ color }: CardTableProps) {
                   $3,150 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-red-500 mr-2"></i> delayed
+                  <FontAwesomeIcon
+                    icon={faCircle}
+                    className="text-red-500 mr-2"
+                  />{" "}
+                  delayed
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex">
@@ -305,8 +318,11 @@ export default function CardTable({ color }: CardTableProps) {
                   $4,400 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-teal-500 mr-2"></i> on
-                  schedule
+                  <FontAwesomeIcon
+                    icon={faCircle}
+                    className="text-teal-500 mr-2"
+                  />{" "}
+                  on schedule
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex">
@@ -369,7 +385,10 @@ export default function CardTable({ color }: CardTableProps) {
                   $2,200 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-emerald-500 mr-2"></i>{" "}
+                  <FontAwesomeIcon
+                    icon={faCircle}
+                    className="text-emerald-500 mr-2"
+                  />{" "}
                   completed
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -422,5 +441,5 @@ export default function CardTable({ color }: CardTableProps) {
 }
 
 CardTable.defaultProps = {
-  color: 'light'
-} as CardTableProps
+  color: "light",
+} as CardTableProps;

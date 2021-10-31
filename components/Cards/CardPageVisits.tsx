@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 // components
 
@@ -54,7 +56,7 @@ export default function CardPageVisits() {
                   340
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-arrow-up text-emerald-500 mr-4"></i>
+                  <FontAwesomeIcon icon={faArrowUp} className="text-emerald-500 mr-4" />
                   46,53%
                 </td>
               </tr>
@@ -69,7 +71,7 @@ export default function CardPageVisits() {
                   319
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-arrow-down text-orange-500 mr-4"></i>
+                  <FontAwesomeIcon icon={faArrowDown} className="text-orange-500 mr-4" />
                   46,53%
                 </td>
               </tr>
@@ -84,7 +86,7 @@ export default function CardPageVisits() {
                   294
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-arrow-down text-orange-500 mr-4"></i>
+                  <FontAwesomeIcon icon={faArrowDown} className="text-orange-500 mr-4" />
                   36,49%
                 </td>
               </tr>
@@ -99,7 +101,7 @@ export default function CardPageVisits() {
                   147
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-arrow-up text-emerald-500 mr-4"></i>
+                  <FontAwesomeIcon icon={faArrowUp} className="text-emerald-500 mr-4" />
                   50,87%
                 </td>
               </tr>
@@ -114,7 +116,7 @@ export default function CardPageVisits() {
                   190
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-arrow-down text-red-500 mr-4"></i>
+                  <FontAwesomeIcon icon={faArrowDown} className="text-orange-500 mr-4" />
                   46,53%
                 </td>
               </tr>

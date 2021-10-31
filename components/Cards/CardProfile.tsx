@@ -1,6 +1,10 @@
 import React from "react";
-
-// components
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMapMarkerAlt,
+  faBriefcase,
+  faUniversity,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function CardProfile() {
   return (
@@ -45,15 +49,24 @@ export default function CardProfile() {
               Jenna Stones
             </h3>
             <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
-              <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>{" "}
+              <FontAwesomeIcon
+                icon={faMapMarkerAlt}
+                className="mr-2 text-lg text-blueGray-400"
+              />{" "}
               Los Angeles, California
             </div>
             <div className="mb-2 text-blueGray-600 mt-10">
-              <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
+              <FontAwesomeIcon
+                icon={faBriefcase}
+                className="mr-2 text-lg text-blueGray-400"
+              />
               Solution Manager - Creative Tim Officer
             </div>
             <div className="mb-2 text-blueGray-600">
-              <i className="fas fa-university mr-2 text-lg text-blueGray-400"></i>
+              <FontAwesomeIcon
+                icon={faUniversity}
+                className="mr-2 text-lg text-blueGray-400"
+              />
               University of Computer Science
             </div>
           </div>

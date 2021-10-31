@@ -1,3 +1,6 @@
+import { faAngular, faCss3, faJsSquare, faReact, faVuejs } from "@fortawesome/free-brands-svg-icons";
+import { faBars, faClipboardList, faFingerprint, faLink, faMapMarked, faNewspaper, faPaintBrush, faTable, faTimes, faTools, faTv, faUserCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
@@ -18,7 +21,7 @@ export default function Sidebar() {
             type="button"
             onClick={() => setCollapseShow("bg-white m-2 py-3 px-6")}
           >
-            <i className="fas fa-bars"></i>
+            <FontAwesomeIcon icon={faBars} />
           </button>
           {/* Brand */}
           <Link href="/">
@@ -64,7 +67,7 @@ export default function Sidebar() {
                     className="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
                     onClick={() => setCollapseShow("hidden")}
                   >
-                    <i className="fas fa-times"></i>
+                    <FontAwesomeIcon icon={faTimes} />
                   </button>
                 </div>
               </div>
@@ -100,14 +103,14 @@ export default function Sidebar() {
                         : "text-blueGray-700 hover:text-blueGray-500")
                     }
                   >
-                    <i
+                    <FontAwesomeIcon icon={faTv}
                       className={
-                        "fas fa-tv mr-2 text-sm " +
+                        "mr-2 text-sm " +
                         (router.pathname.indexOf("/admin/dashboard") !== -1
                           ? "opacity-75"
                           : "text-blueGray-300")
                       }
-                    ></i>{" "}
+                     />{" "}
                     Dashboard
                   </a>
                 </Link>
@@ -124,14 +127,14 @@ export default function Sidebar() {
                         : "text-blueGray-700 hover:text-blueGray-500")
                     }
                   >
-                    <i
+                    <FontAwesomeIcon icon={faTools}
                       className={
-                        "fas fa-tools mr-2 text-sm " +
+                        "mr-2 text-sm " +
                         (router.pathname.indexOf("/admin/settings") !== -1
                           ? "opacity-75"
                           : "text-blueGray-300")
                       }
-                    ></i>{" "}
+                     />{" "}
                     Settings
                   </a>
                 </Link>
@@ -148,14 +151,14 @@ export default function Sidebar() {
                         : "text-blueGray-700 hover:text-blueGray-500")
                     }
                   >
-                    <i
+                    <FontAwesomeIcon icon={faTable}
                       className={
-                        "fas fa-table mr-2 text-sm " +
+                        "mr-2 text-sm " +
                         (router.pathname.indexOf("/admin/tables") !== -1
                           ? "opacity-75"
                           : "text-blueGray-300")
                       }
-                    ></i>{" "}
+                     />{" "}
                     Tables
                   </a>
                 </Link>
@@ -172,14 +175,14 @@ export default function Sidebar() {
                         : "text-blueGray-700 hover:text-blueGray-500")
                     }
                   >
-                    <i
+                    <FontAwesomeIcon icon={faMapMarked}
                       className={
-                        "fas fa-map-marked mr-2 text-sm " +
+                        "mr-2 text-sm " +
                         (router.pathname.indexOf("/admin/maps") !== -1
                           ? "opacity-75"
                           : "text-blueGray-300")
                       }
-                    ></i>{" "}
+                     />{" "}
                     Maps
                   </a>
                 </Link>
@@ -201,7 +204,7 @@ export default function Sidebar() {
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i>{" "}
+                    <FontAwesomeIcon icon={faFingerprint} className="text-blueGray-400 mr-2 text-sm" />{" "}
                     Login
                   </a>
                 </Link>
@@ -213,7 +216,7 @@ export default function Sidebar() {
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"></i>{" "}
+                    <FontAwesomeIcon icon={faClipboardList} className="text-blueGray-300 mr-2 text-sm" />{" "}
                     Register
                   </a>
                 </Link>
@@ -235,7 +238,7 @@ export default function Sidebar() {
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i>{" "}
+                    <FontAwesomeIcon icon={faNewspaper} className="text-blueGray-400 mr-2 text-sm" />{" "}
                     Landing Page
                   </a>
                 </Link>
@@ -247,7 +250,7 @@ export default function Sidebar() {
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas fa-user-circle text-blueGray-400 mr-2 text-sm"></i>{" "}
+                    <FontAwesomeIcon icon={faUserCircle} className="text-blueGray-400 mr-2 text-sm" />{" "}
                     Profile Page
                   </a>
                 </Link>
@@ -268,7 +271,7 @@ export default function Sidebar() {
                   target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fas fa-paint-brush mr-2 text-blueGray-300 text-base"></i>
+                  <FontAwesomeIcon icon={faPaintBrush} className="mr-2 text-blueGray-300 text-base" />
                   Styles
                 </a>
               </li>
@@ -279,7 +282,7 @@ export default function Sidebar() {
                   target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-css3-alt mr-2 text-blueGray-300 text-base"></i>
+                  <FontAwesomeIcon icon={faCss3} className="mr-2 text-blueGray-300 text-base" />
                   CSS Components
                 </a>
               </li>
@@ -290,7 +293,7 @@ export default function Sidebar() {
                   target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-angular mr-2 text-blueGray-300 text-base"></i>
+                  <FontAwesomeIcon icon={faAngular} className="mr-2 text-blueGray-300 text-base" />
                   Angular
                 </a>
               </li>
@@ -301,7 +304,7 @@ export default function Sidebar() {
                   target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-js-square mr-2 text-blueGray-300 text-base"></i>
+                  <FontAwesomeIcon icon={faJsSquare} className="mr-2 text-blueGray-300 text-base" />
                   Javascript
                 </a>
               </li>
@@ -312,7 +315,7 @@ export default function Sidebar() {
                   target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-react mr-2 text-blueGray-300 text-base"></i>
+                  <FontAwesomeIcon icon={faReact} className="mr-2 text-blueGray-300 text-base" />
                   NextJS
                 </a>
               </li>
@@ -323,7 +326,7 @@ export default function Sidebar() {
                   target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-react mr-2 text-blueGray-300 text-base"></i>
+                  <FontAwesomeIcon icon={faReact} className="mr-2 text-blueGray-300 text-base" />
                   React
                 </a>
               </li>
@@ -334,7 +337,7 @@ export default function Sidebar() {
                   target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fas fa-link mr-2 text-blueGray-300 text-base"></i>
+                  <FontAwesomeIcon icon={faLink} className="mr-2 text-blueGray-300 text-base" />
                   Svelte
                 </a>
               </li>
@@ -345,7 +348,7 @@ export default function Sidebar() {
                   target="_blank" rel="noreferrer"
                   className="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <i className="fab fa-vuejs mr-2 text-blueGray-300 text-base"></i>
+                  <FontAwesomeIcon icon={faVuejs} className="mr-2 text-blueGray-300 text-base" />
                   VueJS
                 </a>
               </li>

@@ -1,9 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
+import { faAngleDoubleRight, faCodeBranch, faDraftingCompass, faFileAlt, faFingerprint, faNewspaper, faSitemap } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
 import Diagonal from "../components/Diagonal/Diaganol";
 import Footer from "../components/Footers/Footer";
 import IndexNavbar from "../components/Navbars/IndexNavbar";
+import { faGithub, faHtml5 } from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
 
 
 export default function Index() {
@@ -97,7 +101,7 @@ export default function Index() {
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-sitemap"></i>
+                        <FontAwesomeIcon icon={faSitemap} />
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         CSS Components
@@ -111,7 +115,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
+                        <FontAwesomeIcon icon={faDraftingCompass} />
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         JavaScript Components
@@ -127,7 +131,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-newspaper"></i>
+                        <FontAwesomeIcon icon={faNewspaper} />
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Pages</h6>
                       <p className="mb-4 text-blueGray-500">
@@ -139,7 +143,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-file-alt"></i>
+                        <FontAwesomeIcon icon={faFileAlt} />
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Documentation
@@ -160,7 +164,7 @@ export default function Index() {
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-sitemap text-xl"></i>
+                <FontAwesomeIcon icon={faSitemap} className="text-xl" />
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 CSS Components
@@ -202,7 +206,7 @@ export default function Index() {
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
                 View All{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className="ml-1 leading-relaxed" />
               </a>
             </div>
 
@@ -344,7 +348,7 @@ export default function Index() {
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-drafting-compass text-xl"></i>
+                <FontAwesomeIcon icon={faDraftingCompass} className="text-xl" />
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 Javascript Components
@@ -390,7 +394,7 @@ export default function Index() {
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
                 View all{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                <FontAwesomeIcon icon={faAngleDoubleRight} className="ml-1 leading-relaxed" />
               </a>
             </div>
           </div>
@@ -401,7 +405,7 @@ export default function Index() {
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fas fa-file-alt text-xl"></i>
+                  <FontAwesomeIcon icon={faFileAlt} className="text-xl" />
                 </div>
                 <h3 className="text-3xl font-semibold">
                   Complex Documentation
@@ -417,7 +421,7 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                          <FontAwesomeIcon icon={faFingerprint} />
                         </span>
                       </div>
                       <div>
@@ -431,7 +435,7 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fab fa-html5"></i>
+                          <FontAwesomeIcon icon={faHtml5} />
                         </span>
                       </div>
                       <div>
@@ -445,7 +449,7 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="far fa-paper-plane"></i>
+                          <FontAwesomeIcon icon={faPaperPlane} />
                         </span>
                       </div>
                       <div>
@@ -545,7 +549,7 @@ export default function Index() {
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-code-branch text-xl"></i>
+                <FontAwesomeIcon icon={faCodeBranch} className="text-xl" />
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
                 Open Source
@@ -577,7 +581,7 @@ export default function Index() {
             </div>
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-              <i className="fab fa-github text-blueGray-700 absolute text-55 -top-150-px -right-100 left-auto opacity-80"></i>
+              <FontAwesomeIcon icon={faGithub} className="text-blueGray-700 absolute text-55 -top-150-px -right-100 left-auto opacity-80" />
             </div>
           </div>
         </div>
@@ -615,7 +619,7 @@ export default function Index() {
                   target="_blank" rel="noreferrer"
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
-                  <i className="fab fa-github text-lg mr-1"></i>
+                  <FontAwesomeIcon icon={faGithub} className="text-lg mr-1" />
                   <span>Help With a Star</span>
                 </a>
               </div>
