@@ -26,7 +26,7 @@ export default function Sidebar() {
           {/* Brand */}
           <Link href="/">
             <a
-              href="#pablo"
+              href="#"
               className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
             >
               TS Notus NextJS
@@ -54,7 +54,7 @@ export default function Sidebar() {
                 <div className="w-6/12">
                   <Link href="/">
                     <a
-                      href="#pablo"
+                      href="#"
                       className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
                     >
                       TS Notus NextJS
@@ -95,7 +95,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link href="/admin/dashboard">
                   <a
-                    href="#pablo"
+                    href="#"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/dashboard") !== -1
@@ -119,7 +119,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link href="/admin/settings">
                   <a
-                    href="#pablo"
+                    href="#"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/settings") !== -1
@@ -143,7 +143,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link href="/admin/tables">
                   <a
-                    href="#pablo"
+                    href="#"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/tables") !== -1
@@ -167,7 +167,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link href="/admin/maps">
                   <a
-                    href="#pablo"
+                    href="#"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/maps") !== -1
@@ -201,7 +201,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link href="/auth/login">
                   <a
-                    href="#pablo"
+                    href="#"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
                     <FontAwesomeIcon icon={faFingerprint} className="text-blueGray-400 mr-2 text-sm" />{" "}
@@ -213,7 +213,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link href="/auth/register">
                   <a
-                    href="#pablo"
+                    href="#"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
                     <FontAwesomeIcon icon={faClipboardList} className="text-blueGray-300 mr-2 text-sm" />{" "}
@@ -235,7 +235,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link href="/landing">
                   <a
-                    href="#pablo"
+                    href="#"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
                     <FontAwesomeIcon icon={faNewspaper} className="text-blueGray-400 mr-2 text-sm" />{" "}
@@ -247,7 +247,7 @@ export default function Sidebar() {
               <li className="items-center">
                 <Link href="/profile">
                   <a
-                    href="#pablo"
+                    href="#"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
                     <FontAwesomeIcon icon={faUserCircle} className="text-blueGray-400 mr-2 text-sm" />{" "}

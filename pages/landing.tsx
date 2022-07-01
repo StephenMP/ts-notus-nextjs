@@ -1,18 +1,39 @@
-import { faDribbble, faFacebook, faFacebookF, faGoogle, faHtml5, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faDribbble,
+  faFacebook,
+  faFacebookF,
+  faGoogle,
+  faHtml5,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-regular-svg-icons";
-import { faAward, faFingerprint, faLightbulb, faMedal, faPoll, faRetweet, faRocket, faUserFriends } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAward,
+  faFingerprint,
+  faLightbulb,
+  faMedal,
+  faPoll,
+  faRetweet,
+  faRocket,
+  faUserFriends,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React from "react";
 import Diagonal from "../components/Diagonal/Diaganol";
 import Footer from "../components/Footers/Footer";
+import SeoHead from "../components/Head/SeoHead";
 // components
 import Navbar from "../components/Navbars/AuthNavbar";
-
 
 export default function Landing() {
   return (
     <>
+      <SeoHead
+        title="TS Notus NextJS Landing Demo"
+        description="An example landing page in the TS Notus NextJS template"
+      />
       <Navbar />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
@@ -134,7 +155,7 @@ export default function Landing() {
                   JavaScript.
                 </p>
                 <Link href="/">
-                  <a href="#pablo" className="font-bold text-blueGray-700 mt-8">
+                  <a href="#" className="font-bold text-blueGray-700 mt-8">
                     Check TS Notus NextJS!
                   </a>
                 </Link>

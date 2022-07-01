@@ -24,7 +24,7 @@ const IndexDropdown = () => {
     <div ref={componentRef}>
       <a
         className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-        href="#pablo"
+        href="#"
         ref={btnDropdownRef}
         onClick={(e) => {
           e.preventDefault();
@@ -49,7 +49,7 @@ const IndexDropdown = () => {
         </span>
         <Link href="/admin/dashboard">
           <a
-            href="#pablo"
+            href="#"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
@@ -59,7 +59,7 @@ const IndexDropdown = () => {
         </Link>
         <Link href="/admin/settings">
           <a
-            href="#pablo"
+            href="#"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
@@ -69,7 +69,7 @@ const IndexDropdown = () => {
         </Link>
         <Link href="/admin/tables">
           <a
-            href="#pablo"
+            href="#"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
@@ -79,7 +79,7 @@ const IndexDropdown = () => {
         </Link>
         <Link href="/admin/maps">
           <a
-            href="#pablo"
+            href="#"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
@@ -97,7 +97,7 @@ const IndexDropdown = () => {
         </span>
         <Link href="/auth/login">
           <a
-            href="#pablo"
+            href="#"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
@@ -107,7 +107,7 @@ const IndexDropdown = () => {
         </Link>
         <Link href="/auth/register">
           <a
-            href="#pablo"
+            href="#"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
@@ -125,7 +125,7 @@ const IndexDropdown = () => {
         </span>
         <Link href="/landing">
           <a
-            href="#pablo"
+            href="#"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
@@ -135,7 +135,7 @@ const IndexDropdown = () => {
         </Link>
         <Link href="/profile">
           <a
-            href="#pablo"
+            href="#"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
